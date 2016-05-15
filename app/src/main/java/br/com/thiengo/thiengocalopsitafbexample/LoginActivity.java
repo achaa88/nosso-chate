@@ -50,6 +50,8 @@ public class LoginActivity extends CommonActivity implements GoogleApiClient.OnC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         /*
+
+
         // FACEBOOK
             FacebookSdk.sdkInitialize(getApplicationContext());
             callbackManager = CallbackManager.Factory.create();
