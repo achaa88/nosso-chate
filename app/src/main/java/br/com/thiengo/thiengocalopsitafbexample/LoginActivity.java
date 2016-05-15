@@ -49,7 +49,7 @@ public class LoginActivity extends CommonActivity implements GoogleApiClient.OnC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        /*
         // FACEBOOK
             FacebookSdk.sdkInitialize(getApplicationContext());
             callbackManager = CallbackManager.Factory.create();
@@ -80,7 +80,7 @@ public class LoginActivity extends CommonActivity implements GoogleApiClient.OnC
                 .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                 .build();
 
-
+        */
         firebase = LibraryClass.getFirebase();
         initViews();
         verifyUserLogged();

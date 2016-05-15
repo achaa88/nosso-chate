@@ -14,7 +14,7 @@ public final class LibraryClass {
 
     public static Firebase getFirebase(){
         if( firebase == null ){
-            firebase = new Firebase("https://nosso-chat-fb-thiengo.firebaseio.com");
+            firebase = new Firebase("https://nosso-chat-firebase.firebaseio.com");
         }
 
         return( firebase );
